@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>TASK-7</h1>
+
+<br>
+
+<style>
+
+.outer{
+    width: 700px;
+    height: 500px;
+    position: relative;
+    background-color: #b30059;
+}
+
+.inner{
+    width: 500px;
+    height: 400px;
+    position: absolute;   
+    top: 80%;   
+    left: 50%;
+    transform: translate(-50%, -90%);
+    background-color: #800040;
+    text-align:center;
+    font-family:calibri;
+}
+
+</style>
+     
+<div class="outer">
+<div class="inner">
+
+<p style="color:white;">Name: <input style="margin-left:60px; color:gray;" type="text" id="Name" value="your name"></p>
+
+<p style="color:white;">Email: <input style="margin-left:65px; color:gray;" type="Email" id="Email" value="your email"></p>
+
+<p style="color:white;">Password: <input style="margin-left:40px;" type="password" id="Password"></p>
+
+<p style="color:white;">Phone Number: <input style="margin-left:1px;" type="number" id="Phone Number"></p>
+
+<p style="color:white; margin-left:45px;">Gender:
+  <label style="margin-left:55px;" for="Male">Male:</label>
+  <input type="radio" id="Male" name="Male">
+  <label for="Female">Female:</label> 
+  <input type="radio" id="Female" name="Male">
+  <label for="Other">Other:</label>
+  <input type="radio" id="Other" name="Other">
+</p>
+
+<label style="color:white; margin-right:45px;" for="Language">Language</label> 
+  <select style="margin-right:50px;" name="Language" id="Language">
+    <option value="Select Language">Select language</option>
+    <option value="Tamil">Tamil</option>
+    <option value="Hindi">Hindi</option>
+    <option value="English">English</option>
+    <option value="Kannada">Kanada</option>
+    <option value="Telugu">Telugu</option>
+    <option value="Malayalam">Malayalam</option>
+    <option value="Urdu">Urdu</option>
+    <option value="Marathi">Marathi</option>
+    <option value="Gujarati">Gujarathi</option>
+    <option value="Others">Others</option>
+  </select>
+  
+<p style="color:white;">Zip Code: <input style="margin-left:45px;" type="number" id="Zip Code"></p>
+
+<p style="color:white;">About: <input style="margin-left:60px; color:gray; height:30px;" type="text" id="About" value="Write about yourself..."></p>
+
+<button style="text-align:center; border-radius:5px; border:1px solid white; height:30px; width:340px; font-weight:bold; font-size:18px;" type="text" id="Register" value="Register" onclick="myFunction()">Register</button>
+
+<script>
+function myFunction() {
+  alert("Registered!");
+}
+</script>
+
+</div></div>
+
+<p><big><b> Name: </big></b> SOWMYA S<br>
+<big><b> Reg No.: </big></b> 21BCB0087</p>
+
+</body>
+</html>

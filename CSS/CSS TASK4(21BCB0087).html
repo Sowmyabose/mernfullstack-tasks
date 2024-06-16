@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoverable Sidenav Buttons</title>
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+            margin: 0;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 60px;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #f1f1f1;
+            overflow-x: hidden;
+            padding-top: 20px;
+            transition: 0.5s;
+        }
+
+        .sidenav a {
+            padding: 16px 8px;
+            text-decoration: none;
+            font-size: 25px;
+            color: white;
+            display: block;
+            transition: 0.3s;
+            white-space: nowrap;
+            overflow: hidden;
+            margin-bottom: 10px; /* Add margin to create space between buttons */
+        }
+
+        .sidenav a:hover {
+            width: 250px;
+        }
+
+        .sidenav .green {
+            background-color: #4CAF50; /* Green */
+        }
+
+        .sidenav .blue {
+            background-color: #2196F3; /* Blue */
+        }
+
+        .sidenav .red {
+            background-color: #f44336; /* Red */
+        }
+
+        .sidenav .gray {
+            background-color: #555; /* Gray */
+        }
+
+        .main {
+            margin-left: 60px; /* Same as the width of the sidenav */
+            font-size: 28px; /* Increased text to enable scrolling */
+            padding: 0px 10px;
+        }
+
+        .sidenav .btn span {
+            display: none;
+            margin-left: 10px;
+        }
+
+        .sidenav a:hover span {
+            display: inline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="sidenav">
+  <a href="#home" class="btn green"><span>Home</span></a>
+  <a href="#services" class="btn blue"><span>Services</span></a>
+  <a href="#clients" class="btn red"><span>Clients</span></a>
+  <a href="#contact" class="btn gray"><span>Contact</span></a>
+</div>
+
+<div class="main">
+  <h2>Hoverable Sidenav Buttons</h2>
+  <p>Hover over the buttons in the left side navigation to open them.</p>
+</div>
+<center>
+<p><big><bName: </big></b> SOWMYA S<br>
+<big><b> Reg No.: </big></b> 21BCB0087</p>
+</center>
+</body>
+</html>
+
